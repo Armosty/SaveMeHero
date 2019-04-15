@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="40" height="22" tilewidth="32" tileheight="32" infinite="0" nextlayerid="6" nextobjectid="63">
+ <tileset firstgid="1" name="newinterface3" tilewidth="32" tileheight="32" tilecount="760" columns="40">
+  <image source="images/newinterface3.png" width="1280" height="623"/>
+ </tileset>
+ <tileset firstgid="761" name="grass03" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="images/tilemap/grass03.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1017" name="buttons" tilewidth="32" tileheight="32" tilecount="952" columns="17">
+  <image source="images/tilemap/buttons.png" width="563" height="1800"/>
+ </tileset>
+ <objectgroup id="1" name="background">
+  <object id="33" name="background" x="-3.33333" y="2" width="1280" height="706"/>
+ </objectgroup>
+ <layer id="2" name="char" width="40" height="22">
+  <data encoding="base64" compression="zlib">
+   eJzt1WPvGAYQB+B/ba+2ttruamtbbdtaV9u2bdu2bds21nbrniVL1u0jLPvlnleXu9y7CxQQEBCYIAQlGMEJQUhCEZowhCUc4YlARCIRmSgBfyca0YlBTGIRmzjEJR7xSUBCEpGYJCT9ak8ykpOClKQiNWlISzrSk4GMZCIzWchKNrKTg5xf7c1NHvKSj/wU+KtXiMIUoSjFKP7VbKmAf6Y0ZShLOcpTgYpUojJVqEo1qlODmtSiNnWoSz3q04CGNKIxTWhKM5rTgpa0ojVtvrqn3b/u60gnOtOFrnSjOz3oSS9604e+9KM/AxjIIAYzhKEMYzgjGMkoRjOGsYxjPBOYyCQmM4WpTGM6M5jJLGYzh7nMYz4LWMgiFrOEpSxjOStYySpWs4a1rGM9G9jIJjazha1sYzs72MkudrOHvexjPwc4yCEOc4SjHOM4JzjJKU5zhrOc4zwXuMglLnOFq1zjOje4yS1uc4e73OM+D3jIIx7zhKc84zkveMkrXvOGt7zjPR/4lY984jO/8TtfCAikCEwQghKM4IQgJKEITRjCEo7wRCAikYhMFL4hKtGITgxiEovYxCEu8YhPAhKSiMQkISnf8h3JSE4KUpKK1KQhLelITwYykonMZCEr2chODnLyPbnITR7yko/8FKAghShMEYpSjOKUoCSl+IEf+YnSlKEs5ShPBSpSicpUoSrVqE4NalKL2tShLvWoTwMa0ojGNKEpzWhOC1rSita0oS0/045faE8HOtKJznShK93oTg960ove9KEv/ejPAAYyiMEMYSjDGM4IRjKK0YxhLOMYzwQmMonJTGEq05jODGYyi9nMYS7zmM8CFrKIxSxhKctYzgpWsorVrGEt61jPBjayic1sYSvb2M4OdrKL3exhL/vYzwEOcojDHOEoxzjOCU5yitOc4SznOM8FLnKJy1zhKte4zg1ucovb3OEu97jPAx7yiMc84SnPeM4LXvKK17zhLe94zwd+5SOf+Mxv/M4X/nz8gQhMEIISjOCEICShCE0YwhKO8EQgIpGITBS+ISrRiE4MYhKL2MQhLvGITwISkojEJCEp3/IdyUhOClKSitSkIS3pSE8GMpKJzGQhK9nITg5y8j25yE0e8pKP/BSgIIUoTBGKUozilKAkpfiBH/mJ0pShLOUoTwUqUonKVKEq1ahODWpSi9rUoS71qE8DGtKIxjShKc1oTgta0orWtKEtP9OOX2hPBzrSic50oSvd6E4PetKL3vShL/3ozwAGMojBDGEowxjOCEYyitGMYSzjGM8EJjKJyUxhKtOYzgxmMovZzGEu85jPAhayiMUsYSnLWM4KVrKK1axhLetYzwY2sonNbGEr29jODnayi93sYS/72M8BDnKIwxzhKMc4zglOcorTnOEs5zjPBS5yictc4SrXuM4NbnKL29zhLve4zwMe8ojHPOEpz3jOC17yite84S3veM+HwAH/5z+ePwCm1HWb
+  </data>
+ </layer>
+ <layer id="5" name="playButton" width="40" height="22">
+  <data encoding="base64" compression="zlib">
+   eJztzjEBABAABMAfFCYCxSlgYGG4S3AJp2pJWnm92OvrNj7+AQAAdyYWpAH5
+  </data>
+ </layer>
+ <objectgroup id="3" name="icons">
+  <object id="35" name="hp" x="64" y="547" width="122" height="40"/>
+  <object id="37" name="pwr" x="1110" y="548" width="122" height="40"/>
+  <object id="38" name="str" x="304" y="430" width="35" height="30"/>
+  <object id="39" name="end" x="440.345" y="430" width="35" height="30"/>
+  <object id="40" name="int" x="841" y="430" width="35" height="30"/>
+  <object id="41" name="dex" x="976.012" y="430" width="35" height="30"/>
+  <object id="54" name="nickname" x="574.667" y="477.67" width="168" height="53.3333"/>
+  <object id="55" name="lvl" x="343.667" y="563" width="25" height="25"/>
+  <object id="56" name="lvlto" x="968" y="562" width="25" height="25"/>
+  <object id="49" name="dodge" x="982" y="285" width="45" height="25"/>
+  <object id="48" name="health" x="899" y="285" width="45" height="25"/>
+  <object id="47" name="def" x="813.667" y="285" width="45" height="25"/>
+  <object id="46" name="dmg" x="465.333" y="285" width="45" height="25"/>
+  <object id="45" name="cure" x="380.667" y="285" width="45" height="25"/>
+  <object id="42" name="armor" x="299" y="285" width="45" height="25"/>
+  <object id="53" name="gems" x="132" y="81" width="66" height="30"/>
+  <object id="50" name="money" x="16" y="80" width="66" height="30"/>
+ </objectgroup>
+ <objectgroup id="4" name="clickable">
+  <object id="58" name="backpack" x="673" y="321" width="66" height="50"/>
+  <object id="62" name="game" x="1176.67" y="31.3333" width="67.3333" height="65.3333"/>
+ </objectgroup>
+</map>

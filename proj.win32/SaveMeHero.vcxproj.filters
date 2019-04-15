@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{715254bc-d70b-4ec5-bf29-467dd3ace079}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scenes">
+      <UniqueIdentifier>{f71cc042-79c6-49ca-9386-fedc8baa5440}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Hero">
+      <UniqueIdentifier>{20dc2e9f-08ab-43e6-81b0-c5ed09079e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Enemies">
+      <UniqueIdentifier>{f62318a7-4aeb-425e-b89d-e28b655fd18c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Tools">
+      <UniqueIdentifier>{a83927f1-c2ed-4f19-b579-424adb963b4e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero\Behavior.cpp">
+      <Filter>src\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero\Dialog.cpp">
+      <Filter>src\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero\Hero.cpp">
+      <Filter>src\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Hero\HeroStats.cpp">
+      <Filter>src\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemies\Enemy.cpp">
+      <Filter>src\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Enemies\Swordsman.cpp">
+      <Filter>src\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tools\PathFinding.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\MapScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Scenes\ProfileScene.cpp">
+      <Filter>src\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Tools\EnemyPlacer.cpp">
+      <Filter>src\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero\Dialog.h">
+      <Filter>src\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero\Hero.h">
+      <Filter>src\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Hero\HeroStats.h">
+      <Filter>src\Hero</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemies\Enemy.h">
+      <Filter>src\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Enemies\Swordsman.h">
+      <Filter>src\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tools\Map.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tools\PathFinding.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\MapScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Scenes\ProfileScene.h">
+      <Filter>src\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Tools\EnemyPlacer.h">
+      <Filter>src\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="game.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

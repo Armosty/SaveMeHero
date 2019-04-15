@@ -1,0 +1,39 @@
+{
+	"replicas" : [
+		{
+			"en": "it's so boring, may be go walk?",
+			"ru": "как то скучно, может погулять?",
+			"action": "move"
+		},
+		{
+			"en": "I want to sleep",
+			"ru": "спать хочу",
+			"action": "sleep"
+		},
+		{
+			"en": "I'm just a man",
+			"ru": "я просто человек",
+			"action": "none"
+		},
+		{
+			"en": "I will become a hero!",
+			"ru": "я стану героем!",
+			"action": "none"
+		},
+		{
+			"en": "such beautiful trees",
+			"ru": "какие красивые деревья",
+			"action": "none"
+		},
+		{
+			"en": "life is shit",
+			"ru": "жизнь is shit",
+			"action": "none"
+		},
+		{
+			"en": "Who am I?",
+			"ru": "кто я?",
+			"action": "none"
+		}
+	]
+}
